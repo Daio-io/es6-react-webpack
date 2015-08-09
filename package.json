@@ -1,0 +1,11 @@
+{
+  "name": "es6-react",
+  "version": "1.0.0",
+  "description": "An example using ES6 with React and webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daveloper87 <me@daio.io> (http://www.daio.io)",
+  "license": "ISC"
+}
