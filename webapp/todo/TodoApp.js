@@ -6,6 +6,9 @@ export class TodoApp extends React.Component{
   constructor(){
     super();
     this.state = {items: [], text: ''};
+    // Unlike React.createClass, extending React.Component does not
+    // bind 'this' on functions called in another context, for you.
+    // You need to bind 'this' on the constructor
     this.handleSubmit = this.handleSubmit.bind(this);
     this.onChange = this.onChange.bind(this);
   }
