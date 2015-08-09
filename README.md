@@ -1,6 +1,6 @@
 # es6-react-webpack
 
-A simple example using JSX, Webpack and ES6 to build a React TODO App.
+A simple example using JSX, Gulp.js, Webpack and ES6 to build a React.js TODO App.
 
     npm install
     
